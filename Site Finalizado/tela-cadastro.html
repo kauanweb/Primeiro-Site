@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>CADASTRO</title>
+</head>
+<body>
+
+      <form action="">Registro
+    <div class="main-login">
+     <div class="left-login">
+            <h1>Cadastre<br>e entre pra família da TV TUDO</h1>
+            <img src="familia.svg.svg" class="left-login-img" alt="Tv animação">
+     </div>
+       <div class="right-login">
+          <div class="card-login">
+                <h1>CADASTRO</h1>
+            <div class="textfield"> 
+                <label for="usuario" id="usuario">Usuário</label>
+                <input type="text" name="usuario" placeholder="Crie um Usuário" required>
+            </div>
+            <div class="textfield"> 
+                <label for="email" id="email">Email</label>
+                <input type="text" name="email" placeholder="Informe seu email " required>
+            </div>
+            <div class="textfield"> 
+                <label for="senha" id="senha">Senha</label>
+                <input type="password" name="senha" placeholder="Crie uma Senha" required>
+            </div>
+            <div class="textfield"> 
+                <label for="csenha" id="csenha">Confirma Senha</label>
+                <input type="password" name="csenha" placeholder="Confirme sua senha" required>
+            </div>
+            <button class="btn-login" onclick="cadastrar()">Cadastrar</button>
+            <p>Já está registrado? <a href="tela-login.html">Entrar</a></p>
+         
+          </div>
+          
+       </div>
+       </div>
+    </form>
+       <script src="login.js"></script>
+</body>
+</html>

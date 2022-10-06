@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="pg.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="shortcut icon" href="_images/logo.png" type="image/x-icon">
+
+    <title> Tv Tudo :: </title>
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg bg-light" id="nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="_images/logo.png" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#lanca">Lançamentos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#catt">Categorias</a>  
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#form">Fale Conosco</a>  
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tela-login.html">Login</a>  
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      
+      
+      <!--BLOCOS-->
+      <div id="home">
+        <div class="main-title">
+      <h4>Seja Bem vindo (a)</h4>
+         <input type="text" placeholder="O que você deseja ver? ">
+        <button id="btn">Buscar</button>
+       </div>
+        </div>
+          <h1 class="legenda" id="lanca">Últimos Lançamentos:</h1>
+  
+          <section class="flex" >
+            
+            <div>
+              <img class="lan" src="_images/lancamentos/ao ashi[.jpg" >
+              <p class="pf">Ao Ashi</p>
+            </div>
+            <div>
+              <img class="lan" src="_images/lancamentos/arrow.jpg" >
+              <p class="pf">Arrow</p>
+            </div>
+            <div>
+              <img class="lan"src="_images/lancamentos/art online.jpg" >
+              <p class="pf">Sword Art Online</p>
+            </div>
+            <div>
+              <img class="lan" src="_images/lancamentos/black cover.jpg" >
+              <p class="pf">Black Cover</p>
+            </div>
+            <div>
+              <img class="lan" src="_images/lancamentos/cobra kai.jpg" >
+              <p class="pf">Cobra Kai</p>
+            </div>
+            <div>
+              <img class="lan" src="_images/lancamentos/boruto.jpg" >
+              <p class="pf">Boruto</p>
+            </div>
+            <div>
+              <img class="lan" src="_images/lancamentos/dragon vball super.jpg" >
+              <p class="pf">Dragon Ball Super</p>
+            </div>
+            <div>
+              <img class="lan" src="_images/lancamentos/eu tu e ela.jpg" >
+              <p class="pf">Eu, tu e Ela</p>
+            </div>
+          </section>
+ </main>
+
+          
+          <section id="catt">
+              <h1 class="legenda">Categorias:</h1>
+           <div class="categorias">
+              <div class="adicionados">
+                <h2>OS TOP 5</h2>
+                <a href=""><img id="top" src="_images/lancamentos/banner/todos.jpg" alt="AdicionadosRecentimente"></a>
+              </div>
+              <div class="categoria">
+                <h2>Filmes</h2>
+                <a href=""><img src="_images/lancamentos/banner/superman.jpg" alt="Filmes"></a>
+              </div>
+              <div class="categoria">
+                <h2>Animes</h2>
+                <a href=""><img src="_images/lancamentos/banner/luffy.jpg" alt="Animes"></a>
+              </div>
+              <div class="categoria">
+                <h2>Séries</h2>
+                <a href=""><img src="_images/lancamentos/banner/flash.jpg" alt="Séries"></a>
+              </div>
+           </div>  
+          </section>
+
+          <section id="form">
+            <div class="borda">
+              <h1>Mande suas Dúvidas!!</h1>
+            <form action="">
+              <div class="campo">
+                
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" nome="nome" id="nome" required>
+      
+                <label for="email"><strong>Email</strong></label>
+                <input type="text" nome="email" id="email" required>
+              </div> 
+              <div class="sele">
+              <label for="telefone"><strong>Telefone</strong></label>  
+              <select name="senioridade" id="telefone">
+                <option selected disabled value="">Selecione</option>
+                <option value="junior">Celular</option>
+                <option value="senior">Fixo</option>
+                <option value="pleno">Whatszapp</option>
+              </select>
+              <input type="text" nome="text" id="tell" placeholder="Digite o número aqui" required>
+              </div>
+
+              <div class="campo area">
+                <label for="experiencia"><strong>O que deseja?</strong></label> 
+                <textarea name="experiencia" id="recado" rows="10"></textarea>
+              </div>
+     
+              <div class="btn">
+                <button class="botao" type="submit" onclick="fale()"> Concluído</button>
+                </div>
+              </div>
+            </form>
+          </section>
+
+          <section id="footer">
+          <footer>
+            <div class="container-fluid"> <!--Início da caixa-->
+              <div class="row align-self-senter"> <!--Incio da linha-->
+                <div class="col-sm-4 align-sefl-center">
+                  <img src="_images/logo.png" class="logo_footer"> <!-- "logo-footer" serve para diminir a imagem-->
+                  </div>
+                  <div class="col-sm-4 text-center align-self-center">
+                   Somos a TV tudo!<br>
+                    Vários vídeos legais:<br>
+                    PARA TODA A FAMILIA
+                  </div>
+                  <div class="col-sm-4 text-center align-self-center">
+                    <form class="row g-2">
+                      <div class="col-auto">
+                        <input type="email" name="email" class="form-control" placeholder="Opiniões">
+                      </div>
+                      <div class="col-auto">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                      </div>
+                    </form>
+                  </div>
+              </div>
+            </div>
+          </footer>
+        </section>
+
+          
+      
+      
+
+
+   
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="bootstrap.bundle.js"></script>
+    <script src="login.js"></script>
+
+
+  </body>
+</html>

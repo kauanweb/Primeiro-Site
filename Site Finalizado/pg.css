@@ -1,0 +1,241 @@
+body {
+    background-color: black;
+}
+p.pf {
+    margin: 0;
+    width: 90%;
+    padding: 0%;
+    font-size: 1.3rem;
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+img.lan{
+    max-width: 100%;
+    display: block;
+    width: 210px;
+    height: 270px;
+}
+.logo {
+   width: 15%;
+}
+
+#nav {
+    background: linear-gradient(90deg, rgb(166, 71, 255) 0%, rgb(127, 0, 155) 100%);
+    box-shadow: 7px 7px 7px 7px #ffffffcd;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+#navbarNav ul li a {
+    color:white;
+    font-weight: bold;
+}
+
+#entrada {
+    width: 28%;
+}
+
+
+/*ESTILIZAR H3*/
+.main-title {
+    color: rgb(173, 4, 185);
+    text-align: center;
+    font-size: 317%;
+    margin-top: 8%;
+    margin-bottom: 17%;
+}
+
+h4 {
+    font-size: 257%;
+}
+
+input {
+    width: 50%;
+    text-align: center;
+    font-size: 60%;
+}
+button {
+    font-size: 67%;
+    background-color: rgb(190, 106, 250);
+    width: 21%;
+}
+
+h1 {
+    color: white;
+    
+}
+
+.legenda {
+    font-size: 347%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 5000px;
+}
+.flex > div {
+    flex: 1 1 200px;
+    margin: 9px;
+}
+
+h1#col {
+    margin-top: 10%;
+    font-size: 347%;
+}
+/*categorias*/
+
+#catt{
+    margin-top: 15%;
+}
+
+h1, h2 {
+    font-size: 40px;
+    text-align: center;
+    margin: 40px;
+    color: white;
+}
+
+.categorias {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.adicionados {
+    grid-row: 1 / 3;
+    grid-column: 1 / 3;
+    display: grid;
+    margin: 9px;
+}
+
+.adicionados img {
+    width: 310px;
+    height: 370px;
+}
+
+.adicionados #top{
+    width: 100%;
+    height: 141%;
+    margin-top: -64%;
+}
+
+.categorias h2 {
+    box-shadow: 0 5px 5px black;
+    margin: 0;
+    font-size: 25px;
+    background: rgb(166, 71, 255);
+    width: 100%;
+}
+
+.adicionados h1 {
+    margin: 0;
+    font-size: 30px;
+    background: rgb(166, 71, 255);
+    width: 100%;
+}
+
+.categorias img {
+    padding: 0px;
+    width: 250px;
+    height: 276px;
+}
+
+.categorias > div{
+    margin: 12px;
+}
+
+/*FORMULARIO*/
+
+.borda{
+    border: 20px solid purple;
+}
+
+#form{
+    margin-top: 15%;
+    font-size: 200%;
+     color: white;
+     
+}
+
+.campo label {
+    display: flex;
+}
+
+.campo {
+    margin-bottom: 20px;
+   margin-left: 700px;
+    
+}
+.sele{
+    margin-bottom: 20px;
+   margin-left: 700px;
+}
+select {
+    padding: 0px;
+    font-size: 30px;
+    width: 18%;
+}
+.sele > input {
+    font-size: 88%;
+    width: 42%;
+}
+
+.sele label{
+    display: flex;
+} 
+#recado {
+    width: 900px;
+    font-size: 20px;
+}
+
+.botao {
+    font-size: 1.7em;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    animation: btn 5s linear infinite;
+}
+
+@keyframes btn {
+    100%{
+        filter: hue-rotate(1turn);
+    }
+}
+.botao:hover{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(185, 0, 0);
+}
+
+#footer {
+    background: linear-gradient(90deg, rgb(166, 71, 255) 0%, rgb(127, 0, 155) 100%);
+    margin-top: 25px;
+    color: white;
+    font-size: 30px;
+    
+}
+
+.logo_footer{
+    height: 170px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 20px;
+}
+
+#footer button {
+    width: 122%;
+}
